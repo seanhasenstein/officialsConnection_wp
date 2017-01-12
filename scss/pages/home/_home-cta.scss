@@ -1,0 +1,84 @@
+/*
+
+pages/home/home-cta.scss
+
+*/
+
+
+section.home-cta {
+	.cta {
+	    width: 100%;
+	    margin: 20px 0 0;
+	    text-align: center;
+	    padding: 60px 0;
+	    /* box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 -2px 2px rgba(0, 0, 0, 0.1); */
+	    background: #323232;
+	    background: url(images/reg-bg.jpg);
+	    background-size: cover;
+	    background-position: center center;
+	    background: #f2f2f2;
+	    border-top: 1px solid #ddd;
+
+	    @media screen and (max-width: 700px) {
+	    	margin: 0;
+	    	padding: 40px 0;
+	    } 
+
+	    a.cta-btn {
+			@extend .cta-btn-red;
+			font-size: 18px;
+			margin: 0;
+			padding: 14px 30px;
+
+			@media screen and (max-width: 400px) {
+				width: 90%;
+				margin: 0 auto;
+			}
+	    }
+
+		p {
+		    margin: 0;
+		    font-size: 28px;
+		    font-weight: 300;
+		    color: #333;
+		    border: none;
+		    padding: 0;
+		    letter-spacing: 0.5px;
+		    display: inline-block;
+		    margin: 0 40px 0 0;
+
+		    @media screen and (max-width: 750px) {
+		    	display: block;
+		    	text-align: center;
+		    	margin: 0 0 40px 0;
+		    }
+
+		    @media screen and (max-width: 500px) {
+		    	font-size: 24px;
+		    	padding: 0 20px;
+		    }
+		}
+
+		a.other {
+			margin: 35px auto 0;
+			font-size: 18px;
+			font-weight: 200;
+			font-family: "tenso",sans-serif;
+			color: #777;
+			text-transform: lowercase;
+			display: table;
+
+			&:hover, &:focus, &:active {
+				text-decoration: none;
+			}
+
+			&:hover {
+				color: #aaa;
+			}
+
+			i.fa.fa-angle-right {
+			    margin: 0 0px 0 5px;
+			}
+		}
+	}
+}

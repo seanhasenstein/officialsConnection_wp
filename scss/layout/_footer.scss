@@ -1,0 +1,148 @@
+/* 
+
+layout/footer.scss
+
+*/
+
+
+footer {
+	background: #333;
+	padding: 40px 0;
+
+	@media screen and (max-width: 600px) {
+		text-align: center;
+	}
+
+	p, a {
+	    color: #aaa;
+	    font-weight: 200;
+	    letter-spacing: -0.5px;
+	    font-family: "rooney-web",sans-serif;
+
+	    span {
+	    	padding: 0 0 0 25px;
+	    	margin: 0 0 0 25px;
+	    	border-left: 1px solid #000;
+	    }
+	}
+
+	a {
+		font-style: italic;
+		margin: 0 18px 0 0;
+		padding: 0 18px 0 0;
+		border-right: 1px solid #000;
+
+		@media screen and (max-width: 600px) {
+			border-right: none;
+		}
+
+		&.top {
+			display: none;
+
+			@media screen and (max-width: 991px) {
+				display: block;
+				border: none;
+				border: none;
+				margin: 0;
+				padding: 0;
+				text-align: center;
+
+				.fa.fa-chevron-up {
+				    width: 100%;
+				}
+			}
+		}
+
+		@media screen and (max-width: 991px) {
+			margin: 0;
+			padding: 0 18px;
+		}
+
+		&:last-child {
+			border: none;
+		}
+
+		&:focus, &:hover, &:active {
+			text-decoration: none;
+		}
+
+		&:hover {
+			color: #ddd;
+		}
+	}
+
+	p.footer-nav, p.copyright {
+		display: inline-block;
+		margin: 0;
+
+		@media screen and (max-width: 991px) {
+			width: 100%;
+		}
+	}
+
+	p.footer-nav {
+		float: left;
+		text-aligh: left;
+
+		@media screen and (max-width: 991px) {
+			text-align: center;
+			float: none;
+			margin: 50px auto;
+		}
+
+		@media screen and (max-width: 600px) {
+			padding: 10px 0;
+			border-top: 1px solid #232323;
+			border-bottom: 1px solid #232323;
+			width: 270px;
+			
+			a {
+				display: block;
+				padding: 10px;
+				margin: 10px 0;
+				font-size: 20px;
+				letter-spacing: 1.2px;
+				font-family: "balboa",sans-serif;
+				color: #eee;
+				font-style: normal;
+				text-transform: uppercase;
+				font-weight: 600;
+
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	p.copyright {
+		text-align: right;
+		float: right;
+
+		@media screen and (max-width: 991px) {
+			text-align: center;
+			float: none;
+			margin: 35px 0 0;
+		}
+
+		@media screen and (max-width: 600px) {
+			margin: 0;
+		}
+
+		span {
+			margin: 0 8px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

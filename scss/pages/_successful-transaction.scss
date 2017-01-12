@@ -1,0 +1,73 @@
+/*
+
+	pages/successful-transaction.scss
+
+*/
+
+
+section.successful-transaction {
+	padding: 60px 0 40px;
+
+	i.fa.fa-check-circle {
+	    font-size: 60px;
+	    color: #6bb05e;
+	    margin: 0 0 10px;
+	}
+
+	h1 {
+		font-size: 28px;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin: 20px 0 35px;
+	}
+
+	h3 {
+		font-size: 20px;
+		letter-spacing: 0.6px;
+		margin: 35px 0 12px;
+	}
+
+	p {
+	    font-family: "tenso",sans-serif;
+	    font-size: 16px;
+	    font-weight: 200;
+	    letter-spacing: -0.3px;
+	    margin: 0 0 3px;
+	}
+
+	.camp-info {
+		background: #f5f5f5;
+		padding: 20px 25px;
+		margin-top: 40px;
+
+		h5 {
+			margin: 0 0 15px;
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+
+		ul {
+			padding-left: 20px;
+
+			li {
+				font-family: "tenso",sans-serif;
+				font-size: 17px;
+				font-weight: 400;
+				letter-spacing: -0.3px;
+				margin: 0 0 12px;
+				padding: 0 0 0 5px;
+			}
+		}
+	}
+
+	h4 {
+		font-size: 26px;
+	    letter-spacing: 0.4px;
+	    margin: 30px 0 15px;
+	}
+
+	a, span {
+		color: $red;
+	}
+}

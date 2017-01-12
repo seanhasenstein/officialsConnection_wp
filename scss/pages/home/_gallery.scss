@@ -1,0 +1,23 @@
+/*
+
+pages/home/gallery.scss
+
+*/
+
+
+section.gallery {
+    margin: 0px 0 30px;
+    background: #fff;
+    text-align: center;
+	
+	img {
+	    width: 29%;
+	    margin: 0 1%;
+	    display: inline-block;
+
+	    @media screen and (max-width: 450px) {
+	    	width: 95%;
+	    	margin: 5px auto;
+	    }
+	}
+}

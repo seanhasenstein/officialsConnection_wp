@@ -1,0 +1,52 @@
+/*
+
+pages/registration-forms.scss
+
+*/
+
+
+section.registration-form {
+	padding: 60px 0;
+
+	h1 {
+	    text-align: left;
+	    font-size: 34px;
+	    /*border-left: 2px solid #D0011B;*/
+	    /*display: inline-block;*/
+	    /*padding-top: 5px;*/
+	    /*padding-left: 10px;*/
+	    text-transform: uppercase;
+	    margin: 0 0 30px;
+	}
+
+	.notes {
+		margin: 10px 0 35px;
+		background: #f3f3f3;
+		display: inline-block;
+		padding: 18px 22px;
+		border: 1px solid #e5e5e5;
+		border-radius: 1px;
+
+		h4 {
+			margin: 0 0 17px;
+			text-transform: uppercase;
+			font-size: 17px;
+		}
+
+		p {
+		    font-family: "tenso",sans-serif;
+		    font-size: 16px;
+		    font-weight: 400;
+		    letter-spacing: -0.3px;
+
+		    &:last-child {
+		    	margin-bottom: 0;
+		    }
+
+		    i.fa {
+		    	color: $red;
+		    	margin-right: 10px;
+		    }
+		}
+	}
+}

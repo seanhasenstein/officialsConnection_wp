@@ -1,0 +1,183 @@
+/*
+
+	components/forms.scss
+
+*/
+
+
+#gform_wrapper_1, #gform_wrapper_2, #gform_wrapper_3 {
+	margin: 0;
+
+	& input, textarea {
+	    box-shadow: none;
+	    border: 1px solid #ddd;
+	    border-radius: 2px;
+	}
+
+	& input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), textarea {
+	    font-size: 16px;
+	    font-family: inherit;
+	    padding: 7px 9px;
+	    letter-spacing: 0.4px;
+	    font-family: "tenso",sans-serif;
+	}
+
+	textarea.large {
+	    height: 150px;
+	}
+
+	.top_label div.ginput_container {
+	    margin-top: 7px;
+	    margin-bottom: 28px;
+	}
+
+	label.gfield_label {
+	    font-size: 17px;
+	    font-family: "tenso",sans-serif;
+	    font-weight: 400;
+	    margin: 0;
+	}
+
+	.gfield_required {
+		display: none;
+	}
+
+	ul li.gfield {
+	    margin-top: 0;
+	}
+
+	.gform_footer {
+	    padding: 0;
+	    margin: 0;
+	}
+
+	input#gform_submit_button_1, input#gform_submit_button_2, input#gform_submit_button_3 {
+	    background: #3a3a3c;
+	    color: #fff;
+	    padding: 17px 37px;
+	    font-size: 16px;
+	    text-transform: uppercase;
+	    letter-spacing: 1.3px;
+	    border-radius: 3px;
+	    line-height: 18px;
+
+	    @media screen and (max-width: 767px) {
+	    	margin: 0 0 65px;
+	    }
+	}
+
+	input#gform_submit_button_1 {
+		background: #3a3a3c;
+	}
+
+	input#gform_submit_button_2, input#gform_submit_button_3 {
+		background: $red;
+	}	
+}
+
+
+#gform_wrapper_2, #gform_wrapper_3 {
+
+	label.gfield_label {
+	    font-size: 20px;
+	    font-family: "tenso",sans-serif;
+	    font-weight: 500;
+	    margin: 10px 0 5px;
+	}
+
+	li#field_2_3 label.gfield_label, li#field_2_13 label.gfield_label {
+		font-size: 27px;
+	}
+
+	 ul li.field_description_below div.ginput_container_checkbox, .top_label div.ginput_container {
+	 	margin-top: 15px;
+	 	margin-bottom: 40px;
+	 }
+
+	.gfield_checkbox li, .gfield_radio li {
+	    margin: 0 0 7px;
+	}
+
+	.gfield_checkbox li label, .gform_wrapper .gfield_radio li label {
+	    font-size: 17px;
+	    font-family: "tenso",sans-serif;
+	    font-weight: 200;
+	    padding: 0 0 0 8px;
+	}
+
+	.gfield_radio li label {
+		font-family: "tenso",sans-serif;
+	    font-size: 18px;
+	    font-weight: 200;
+	    padding: 0 0 0 8px;
+	    letter-spacing: 0.5px;
+	}
+
+	ul.gfield_radio {
+	    margin: 15px 0;
+	}
+
+	.ginput_container.ginput_container_product_calculation, .ginput_container.ginput_container_total {
+	    font-size: 20px;
+	    letter-spacing: 0.5px;
+	}
+
+	select#input_2_7_4, select#input_2_14_2_month, select#input_2_14_2_year, select#input_3_7_4, select#input_3_14_2_month, select#input_3_14_2_year {
+	    font-size: 16px;
+	    font-family: inherit;
+	    padding: 7px 9px;
+	    letter-spacing: 0.4px;
+	    font-family: "tenso",sans-serif;
+	}
+
+	.gform_wrapper select option {
+	    padding: 10px 3px;
+	    display: block;
+	    font-size: 17px;
+	    min-height: 1.5em;
+	}
+
+	li#field_2_11 label.gfield_label, li#field_3_11 label.gfield_label {
+	    font-weight: 500;
+	    font-size: 18px;
+	    line-height: 27px;
+	}
+
+	li.gfield.field_description_below+li.gsection {
+	    margin-top: 85px !important;
+	}
+
+	h2.gsection_title {
+	    font-weight: 400;
+	    font-size: 26px;
+	    text-transform: uppercase;
+	    color: #333;
+	    margin-bottom: 0;
+	    letter-spacing: 0.5px !important;
+	    border-left: 2px solid #D0011B;
+	    padding-left: 12px !important;
+	    padding-top: 5px !important;
+	    /*background: #f1f1f1;*/
+	    /*display: inline-block;*/
+	    /*padding: 8px 15px 6px 12px !important;*/
+	    /*border-top-right-radius: 20px;*/
+	    /*border-bottom-right-radius: 20px;*/
+	    /*border-bottom: 1px solid #dedede;*/
+	}
+
+	.gsection {
+	    border-bottom: none;
+	    border-top: 1px solid #ebebeb;
+	    padding: 35px 16px 0 0;
+	    margin: 40px 0;
+
+	    &.first-section {
+	    	border-top: none;
+	    	padding-top: 15px;
+	    }
+	}
+
+	li#field_2_3, li#field_3_3 {
+	    margin-top: 40px !important;
+	}
+}

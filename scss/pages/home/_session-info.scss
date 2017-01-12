@@ -1,0 +1,109 @@
+/*
+
+pages/home/session-info.scss
+
+*/
+
+
+section.session-info {
+	padding: 30px 0 25px;
+
+	.container {
+		padding-top: 55px;
+   		border-top: 1px solid #ebebeb;
+
+   		@media screen and (max-width: 767px) {
+   			padding-top: 0;
+   			border: none;
+   		}
+	}
+
+	h3 {
+	    margin: 0 0 30px;
+	    text-transform: uppercase;
+	    font-weight: normal;
+	    font-size: 28px;
+	    text-align: left;
+	    padding-top: 7px;
+	    padding-left: 15px;
+	    border-left: 2px solid $red;
+
+		    @media screen and (max-width: 500px) {
+		    	font-size: 22px;
+		    }
+		}
+
+
+	ul {
+		padding-left: 15px;
+		padding-right: 15px;
+
+		@media screen and (max-width: 700px) {
+			padding-right: 0;
+		}
+
+		li {
+		    font-size: 17px;
+		    font-weight: 300;
+		    margin: 0 0 15px;
+		    letter-spacing: -0.2px;
+		    font-family: "tenso",sans-serif;
+		    display: block;
+		    float: left;
+		    width: 33.33%;
+		    padding: 0 60px 0 50px;
+		    margin: 50px 0;
+		    position: relative;
+
+		    @media screen and (max-width: 1200px) {
+		    	width: 50%;
+		    	margin: 30px 0;
+		    }
+
+		    @media screen and (max-width: 700px) {
+		    	width: 100%;
+		    	padding: 0 0 0 50px;
+		    }
+
+		    &:nth-child(3n):not(:first-child) {
+
+		    	@media screen and (min-width: 1201px) {
+		    		padding-right: 0;
+		    	}
+		    }
+
+		    &:nth-child(2n) {
+
+		    	@media screen and (max-width: 1200px) and (min-width: 701px) {
+		    		padding-right: 0;
+		    	}
+			}
+
+			&:nth-child(2n+3) {
+
+				@media screen and (max-width: 1200px) and (min-width: 700px) {
+					clear: both;
+				}
+			}
+
+		    h2 {
+		    	font-family: "balboa",sans-serif;
+		    	font-size: 23px;
+		    	margin: 0 0 6px;
+		    }
+
+		    i.fa {
+				position: absolute;
+				left: 0;
+				top: 0;
+				font-size: 30px;
+		    }
+
+		    span {
+	    	    font-size: 18px;
+				line-height: 28px;
+		    }
+		}
+	}
+
+}

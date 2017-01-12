@@ -1,0 +1,73 @@
+/*
+
+pages/home/staff.scss
+
+*/
+
+
+
+
+section.staff {
+	padding: 50px 0 60px;
+
+	h2 {
+		font-family: "balboa-plus-fill",sans-serif;
+	    font-weight: normal;
+	    font-size: 36px;
+	    text-align: center;
+	    margin-bottom: 70px;
+	}
+
+	div.featured {
+	    margin: 50px 25px 0;
+	    padding: 0 0 50px;
+	    border-bottom: 1px solid #ddd;
+
+		img {
+			float: left;
+            width: 18%;
+        }
+
+		.details {
+			float: left;
+			display: inline-block;
+			width: 82%;
+			padding: 0 0 0 50px;
+
+			h3 {
+			    margin: 0 0 15px;
+			    display: block;
+
+			    & span {
+					font-weight: 200;
+					font-size: 13px;
+					text-transform: uppercase;
+					letter-spacing: 0.6px;
+					margin-left: 1px;
+			    }
+			}
+
+			p {
+				font-size: 16px;
+				font-weight: 300;
+				line-height: 25px;
+				margin: 0;
+				letter-spacing: -0.2px;
+				display: inline-block;
+				font-family: "tenso",sans-serif;
+			}
+		}
+	}
+
+	div.clinicians {
+		margin: 0 25px;
+
+		h2 {
+			margin-top: 25px;
+			font-size: 24px;
+			text-align: left;
+			font-family: "balboa",sans-serif;
+			text-transform: uppercase;
+		}
+	}
+}

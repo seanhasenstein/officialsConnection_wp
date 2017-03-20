@@ -8,16 +8,15 @@ pages/home/home-cta.scss
 section.home-cta {
 	.cta {
 	    width: 100%;
-	    margin: 20px 0 0;
+	    margin: 0;
 	    text-align: center;
 	    padding: 60px 0;
 	    /* box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 -2px 2px rgba(0, 0, 0, 0.1); */
-	    background: #323232;
-	    background: url(images/reg-bg.jpg);
-	    background-size: cover;
-	    background-position: center center;
-	    background: #f2f2f2;
-	    border-top: 1px solid #ddd;
+	    /*background: url(images/reg-bg.jpg);*/
+	    /*background-size: cover;*/
+	    /*background-position: center center;*/
+	    background: #fff;
+	    /*border-top: 1px solid #ddd;*/
 
 	    @media screen and (max-width: 700px) {
 	    	margin: 0;

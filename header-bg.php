@@ -28,7 +28,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="https://www.officialsconnection.org">
             <h1>Officials Connection</h1>
             <p>with</p>
             <h2>Wisconsin Basketball Yearbook Officials Camps</h2>
@@ -37,10 +37,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://seanhasensteindemo.com">Home</a></li>
-            <li><a href="http://seanhasensteindemo.com/kaukauna.html">Kaukauna Camp</a></li>
-            <li><a href="http://seanhasensteindemo.com/plymouth.html">Plymouth Camp</a></li>
-            <li><a href="http://seanhasensteindemo.com/register.html">Register Now</a></li>
+            <li><a href="https://www.officialsconnection.org/kaukauna">Kaukauna Camp</a></li>
+            <li><a href="https://www.officialsconnection.org/plymouth">Plymouth Camp</a></li>
+            <li><a href="https://www.officialsconnection.org/register">Register Now</a></li>
+            <li><a href="https://www.officialsconnection.org/contact">Contact Us</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->

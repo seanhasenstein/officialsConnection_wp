@@ -21,7 +21,7 @@ Template Name: Plymouth Camp Page
             <a href="#camp-details">Camp Details<i class="fa fa-caret-down" aria-hidden="true"></i></a>
             <a href="#camp-sessions">Camp Sessions<i class="fa fa-caret-down" aria-hidden="true"></i></a>
             <a href="#camp-staff">Camp Staff<i class="fa fa-caret-down" aria-hidden="true"></i></a>
-            <a href="http://seanhasensteindemo.com/register.html">Register Now<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <a href="http://www.officialsconnection.org/plymouth-choose-registration/">Register Now<i class="fa fa-caret-down" aria-hidden="true"></i></a>
         </div>
     </section>
 
@@ -96,8 +96,8 @@ Template Name: Plymouth Camp Page
         </div>
         <div class="row cta">
             <p>Spots are limited, so get your's today!</p>
-            <a href="http://seanhasensteindemo.com/registration-format-plymouth.html" class="cta-btn">Register for Plymouth Camp</a>
-            <a href="http://seanhasensteindemo.com/kaukauna.html" class="other">or see our Kaukauna Camp details<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <a href="https://www.officialsconnection.org/plymouth-choose-registration" class="cta-btn">Register for Plymouth Camp</a>
+            <a href="https://www.officialsconnection.org/kaukauna" class="other">or see our Kaukauna Camp details<i class="fa fa-angle-right" aria-hidden="true"></i></a>
         </div>
     </section>
 

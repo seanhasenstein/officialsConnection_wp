@@ -5,6 +5,17 @@ pages/home/hero.scss
 */
 
 
+section.hero, section.hero .col-sm-12 {
+	height: 85vh;
+
+	@media screen and (min-width: 1500px) {
+		height: 50vh
+	}
+	@media screen and (max-width: 600px) {
+		height: auto;
+	}
+}
+
 section.hero {
     background: url('images/hero_28.jpg');
     background-repeat: no-repeat;
@@ -13,59 +24,60 @@ section.hero {
     padding: 0;
     border-bottom: 1px solid #bbb;
     border-top: 1px solid #bbb;
-    height: 65vh;
-    display: table; 
     width: 100%;
     box-shadow: inset 450px 0 900px rgba(0, 0, 0, 0.5), inset -250px 0 900px rgba(0, 0, 0, 0.35);
     position: relative;
     width: 100%;
     margin: 0 auto;
 
-    @media screen and (max-width: 500px) {
-    	/*height: 75vh;*/
-    }
-
     .container {
-    	display: table-cell;
-    	vertical-align: middle;
+
+    	@media screen and (max-width: 1199px) {
+    		width: 100%;
+    		padding: 0 50px;
+    	}
+    	@media screen and (max-width: 600px) {
+    		padding: 0;
+    	}
     }
 
     .inner {
-    	/*position: absolute;*/
-    	/*bottom: 20px;*/
-		margin: 0;
-		/*background: rgba(0, 0, 0, 0.5);*/
-		padding: 0 0 0 80px;
-		text-align: left;
-		/*float: left;*/
-		/*border-radius: 3px;*/
-		/*border: 2px solid #000;*/
-		/*border-left: 1px solid #111;*/
-		/*border-top: 1px solid #111;*/
-		/*box-shadow: 4px 4px 38px rgba(0, 0, 0, 0.55);*/
-		/*text-align: center;*/
-		/*bottom: 10px;*/
-		/*left: 0;*/
-		/*right: 0;*/
-		/*vertical-align: middle;*/
-		/*display: table-cell;*/
+	    position: absolute;
+	    top: 50%;
+	    left: 0;
+	    margin-top: -268px;
+	    padding: 0;
+	    text-align: left;
+	    float: left;
+	    padding: 40px 55px;
+	    background: rgba(0, 0, 0, 0.55);
+	    border-radius: 6px;
+	    background: rgba(150, 150, 150, 0.3);
+	    box-shadow: inset -2px 2px 0 rgba(255, 255, 255, 0.1), inset 2px -2px 0 rgba(200, 200, 200, 0.1), 5px 5px 80px rgba(0, 0, 0, 0.9);
+	    border-width: 1px 1px 1px 1px;
+	    border-style: solid;
+	    border-color: #262626;
+	    width: 500px;
+	    background: rgba(0, 0, 0, 0.85);
+	    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(13,13,13,0.52) 28%,rgba(32,32,32,0.99) 70%,rgba(45,45,45,0.99) 100%);
+    	background: rgba(0,0,0,0.55);
 
-		@media screen and (max-width: 1200px) {
-			padding: 0 0 0 50px;
-		}
-
-		@media screen and (max-width: 1100px) {
-			padding: 0 0 0 30px;
-		}
-
-		@media screen and (max-width: 500px) {
-			text-align: center;
-			padding: 0 20px;
-		}
-
-		.camp-1 {
-			margin: 0 0 60px;
-		}
+    	@media screen and (max-width: 600px) {
+    		width: 100%;
+    		top: 0;
+    		bottom: 0;
+    		left: 0;
+    		right: 0;
+    		border: none;
+    		box-shadow: none;
+    		margin: 0;
+    		position: relative;
+    		padding: 50px;
+    		text-align: center;
+    	}
+    	@media screen and (max-width: 400px) {
+    		padding: 40px 30px;
+    	}
 
 		h1 {
 			font-size: 44px;
@@ -76,54 +88,140 @@ section.hero {
 
 		h2 {
 		    color: #F3FAFE;
-		    font-size: 36px;
+		    font-size: 40px;
 		    font-weight: 400;
 		    letter-spacing: 1px;
 		    margin: 0;
 		    text-transform: uppercase;
-		    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+		    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
 		}
 
 		h3 {
-			font-size: 24px;
-			margin: 6px 0;
-			font-weight: 400;
-			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-			font-family: "tenso",sans-serif;
+			font-size: 26px;
+			margin: 7px 0 17px;
+			font-weight: 500;
+			text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 			color: #D19F51;
+			font-family: "balboa-plus-fill",sans-serif;
+			margin: 0;
+			text-transform: uppercase;
+			font-weight: normal;
+			font-size: 38px;
+			text-align: center;
+			color: #a5a5a5;
+			line-height: 1.2;
+			color: #fff;
+
+			@media screen and (max-width: 560px) {
+				font-size: 30px;
+			}
+			@media screen and (max-width: 400px) {
+				font-size: 26px;
+			}
 		}
 
 	    p {
-			color: #999;
-			margin: 0 0 30px;
-			text-shadow: 1px 1px 0 #000;
-			text-align: center;
-			font-weight: 200;
-			font-family: "tenso",sans-serif;
-			letter-spacing: -1px;
-			font-size: 24px;
+		    color: #aaa;
+		    margin: 20px 0 32px;
+		    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.9);
+		    text-align: center;
+		    font-weight: 200;
+		    font-family: "tenso",sans-serif;
+		    letter-spacing: -0.3px;
+		    font-size: 19px;
+		    color: #ccc;
+		    width: 100%;
+		    clear: both;
 
-			@media screen and (max-width: 800px) {
-				margin: 0 0 40px;
-				font-size: 20px;
-				text-transform: uppercase;
-				letter-spacing: -0.5px;
-			}
-
-			@media screen and (max-width: 500px) {
-				margin: 0 0 30px;
-			}
-
-			@media screen and (max-width: 370px) {
-				display: none;
-			}
+		    @media screen and (max-width: 400px) {
+				font-size: 16px;
+				margin: 10px 0 31px;
+		    }
 	    }
+
+	    .kau, .ply {
+		    float: left;
+		    margin: 25px 0 32px;
+		    text-align: center;
+		    width: 190px;
+		    text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+
+		    @media screen and (max-width: 600px) {
+				margin: 25px 0 30px;
+				width: 50%;
+		    }
+
+		    h4 {
+				font-size: 30px;
+				color: #fff;
+				font-weight: 100;
+				margin-bottom: 0;
+
+				@media screen and (max-width: 500px) {
+					font-size: 20px;
+				}
+		    }
+
+		    h5 {
+				font-family: "tenso",sans-serif;
+				color: #d19f51;
+				font-size: 20px;
+				font-weight: 400;
+				margin-top: 3px;
+
+				@media screen and (max-width: 500px) {
+					font-size: 14px;
+					margin-top: 5px;
+				}
+		    }
+
+		    a {
+				border: 1px solid #64000C;
+				box-shadow: inset 0 1px 1px #E8011E;
+				border-color: #620a15 #620a15 #4f060f;
+				color: #F3FAFE;
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				font-size: 15px;
+				font-weight: 200;
+				letter-spacing: 0.5px;
+				padding: 4px 9px 5px;
+				border-radius: 2px;
+				box-shadow: inset 0 1px 1px #767676;
+				border-color: #333 #333 #222;
+				display: inline-block;
+				background: #565656;
+
+				@media screen and (max-width: 500px) {
+					font-size: 13px;
+				}
+
+				&:hover, &:focus, &:active {
+					text-decoration: none;
+				}
+
+				&:hover {
+					background: #454545;
+					box-shadow: inset 0 1px 1px #565656;
+				}
+		    }
+		}
+
+		.kau {
+			border-right: 1px solid #000;
+			padding: 0 20px 0 0;
+		}
+
+		.ply {
+			padding: 0 0 0 20px;
+			border-left: 1px solid #373737;
+		}
 
 		.cta-btns {
 			width: auto;
 			display: block;
 			clear: both;
 			margin: 10px 0 0;
+			text-align: center;
 
 			@media screen and (max-width: 500px) {
 				margin: 14px 0 0;
@@ -131,37 +229,15 @@ section.hero {
 
 		    a {
 		    	@extend .all-btns;
-				margin: 0 7px;
-
-				@media screen and (max-width: 500px) {
-			    	font-size: 15px;
-			    }
-
-		    	&:nth-child(1) {
-		    		@extend .cta-btn-black;
-				    margin: 0 7px 0 0;
-				    font-size: 18px;
-		    	}
-
-		    	&:nth-child(2) {
-		    		@extend .cta-btn-red;
-		    		font-size: 18px;
-		    	}
-
-		    	@media screen and (max-width: 500px) {
-
-		    		&:nth-child(1), &:nth-child(2) {
-		    			font-size: 16px;
-		    		}
-		    	}
-
-		    	@media screen and (max-width: 400px) {
-
-		    		&:nth-child(1), &:nth-child(2) {
-						font-size: 12px;
-						margin: 0 3px;
-					}
-		    	}
+				@extend .cta-btn-red;
+	    		font-size: 20px;
+				padding: 10px 26px;
+				font-weight: 400;
+				border-radius: 3px;
+				letter-spacing: 1px;
+				display: inline-block;
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				cursor: pointer;
 		    }
 		}
 	}

@@ -22,13 +22,13 @@ Template Name: Contact Page
                     <div class="details">
                         <h3>Tom Rusch</h3>
                         <h4>(920) 698-2400</h4>
-                        <h4><a href="#">rusch@lutheranhigh.com</a></h4>
+                        <h4><a href="mailto:rusch@lutheranhigh.com">rusch@lutheranhigh.com</a></h4>
                     </div>
                     <img src="<?php bloginfo('template_directory'); ?>/images/don.jpg" class="don">
                     <div class="details details-2">
                         <h3>Don Baumgart</h3>
                         <h4>(920) 841-8813</h4>
-                        <h4><a href="#">dsbaumgart3@gmail.com</a></h4>
+                        <h4><a href="mailto:dsbaumgart3@gmail.com">dsbaumgart3@gmail.com</a></h4>
                     </div>
                 </div>
             </div>

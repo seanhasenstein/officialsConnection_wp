@@ -1,54 +1,58 @@
 <div class="text-center">
     <i class="fa fa-check-circle" aria-hidden="true"></i>
     <h1>Your 2017 Kaukauna Registration has been Received!</h1>
+    <a class="receipt" href="http://www.officialsconnection.org/pdf/5877e56e9ae69/{entry_id}/" target="_blank">Download Your Receipt</a>
+    <p class="side-note">(It will also be emailed to you)</p>
 </div>
 
 <div class="transaction-details">
 
     <div class="row">
 
-        <div class="col-sm-6 col-sm-offset-1">
+        <div class="col-md-4 col-md-offset-2 col-sm-6">
 
-            <h3>Date</h3>
-            <p>{date_mdy}</p>
+            <p class="date">{Post Date:26}</p>
 
-            <h3>Your Registration Details:</h3>
             <p>{Your Name (First):4.3} {Your Name (Last):4.6}</p>
             <p>{Your Email:5}</p>
             <p>{Your Address (Street Address):7.1} {Your Address (Address Line 2):7.2}</p>
             <p>{Your Address (City):7.3}, {Your Address (State / Province):7.4} {Your Address (ZIP / Postal Code):7.5}</p>
 
-            <h3>The sessions you signed up for:</h3>
-            <p>{Which session(s) will you be attending? (Women\'s College = Friday June 23rd - Saturday June 24th ($160)):2.1}</p>
-            <p>{Which session(s) will you be attending? (Men\'s College = Saturday June 24th - Sunday June 25th ($160)):2.2}</p>
-            <p>{Which session(s) will you be attending? (High School - Master & L5 = Friday June 23rd ($85)):2.3}{Which session(s) will you be attending? (High School - Master, L5, & L4 = Saturday Morning, June 24th ($85)):2.4}</p>
-            <p>{Which session(s) will you be attending? (High School - All Levels (2 and 3 person) = Saturday Afternoon, June 25th ($85)):2.5}</p>
-            <p>{Which session(s) will you be attending? (High School - All Levels (2 and 3 person) = Sunday June 25th ($85)):2.6}</p>
+            <h3>The session(s) you signed up for</h3>
+            <p class="sessions">{Which sessions will you be attending? (Women\'s College Session on Friday June 23rd - Saturday June 24th):30.1}</p>
+            <p class="sessions">{Which sessions will you be attending? (Men\'s College Session on Saturday June 24th - Sunday June 25th):30.2}</p>
+            <p class="sessions">{Which sessions will you be attending? (High School Master and L5 Session on Friday June 23rd):30.3}</p>
+            <p class="sessions">{Which sessions will you be attending? (High School - Master, L5, and L4 Session on Saturday Morning, June 24th):30.4}</p>
+            <p class="sessions">{Which sessions will you be attending? (High School - All Levels Session (2 and 3 person) on Saturday Afternoon, June 24th):30.5}</p>
+            <p class="sessions">{Which sessions will you be attending? (High School - All Levels Session (2 and 3 person) on Sunday June 25th):30.6}</p>
 
-            <h3>Total Price:</h3>
-            <p>{Total:13}</p>
+            <h3>Total</h3>
+            <p class="green">{Total:13}</p>
 
-            <h3>Card Details:</h3>
+            <h3>Card Details</h3>
             <p>{Credit Card (Card Type):14.4}</p>
             <p>{Credit Card (Card Number):14.1}</p>
 
         </div>
 
-        <div class="col-sm-5">
+        <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
 
-            <h3>Emergency Contact::</h3>
-            <p>{Emergency Contact Name (First):19.3} {Emergency Contact Name (Last):19.6} / {Emergency Contact Phone Number:22}</p>
+            <h3>Transaction ID</h3>
+            <p>{transaction_id}</p>
 
-            <h3>WIAA Number / Classification:</h3>
-            <p>{WIAA Number:8} / {WIAA Classification:9}</p>
+            <h3>Emergency Contact Info</h3>
+            <p>{Emergency Contact Name (First):19.3} {Emergency Contact Name (Last):19.6}&nbsp;&nbsp;at&nbsp;&nbsp;{Emergency Contact Phone Number:22}</p>
 
-            <h3>T-shirt size:</h3>
+            <h3>WIAA Number &amp; Classification</h3>
+            <p>{WIAA Number:8}&nbsp;&nbsp;-&nbsp;&nbsp;{WIAA Classification:9}</p>
+
+            <h3>T-shirt size</h3>
             <p>{What is your t-shirt size?:10}</p>
 
-            <h3>Do you need a hotel?:</h3>
+            <h3>Do you need a hotel?</h3>
             <p>{Hotel accomadations are NOT included in your camp registration. However, if you need a room, we have a block reserved at the Quality Inn and Suites at a reduced rate. If interested in reducing cost even further, we can also help you find a camper to room with.:11}</p>
 
-            <h3>Did you refer someone to camp?:</h3>
+            <h3>Did you refer someone to camp?</h3>
             <p>{Referral discount - Get someone to attend camp and receive a $10 discount! (limit 1 referral per person).:24}</p>
             <p>{Who is your referral?:25}</p>
 
@@ -60,8 +64,8 @@
 
 <div class="row">
 
-    <div class="camp-info col-sm-10 col-sm-offset-1">
-        <h5>Camp Notes:</h5>
+    <div class="camp-info col-md-8 col-md-offset-2 col-sm-12">
+        <h5>Important Camp Notes</h5>
         <ul>
             <li>You will receive a confirmation email shortly.</li>
             <li>Payment indicates that you agree to release the WBYOC from all liablity for injuries and illness while at camp.</li>
@@ -75,5 +79,5 @@
 
 <div class="text-center">
     <h4>We look forward to having you at this years WBYOC Kaukauna Camp!</h4>
-    <p><a href="#">www.officialsconnection.org</a></p>
+    <p><a href="https://www.officialsconnection.org">www.officialsconnection.org</a></p>
 </div>

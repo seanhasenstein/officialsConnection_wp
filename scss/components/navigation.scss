@@ -138,7 +138,7 @@ components/navigation.scss
     height: 4px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
 
     .navbar-header {
         margin-bottom: 13px;
@@ -194,7 +194,7 @@ components/navigation.scss
 
 
 /*************** Mobile Nav Breakpoint ***************/
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
     .navbar-header {
         float: none;
     }

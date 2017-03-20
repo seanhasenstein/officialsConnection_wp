@@ -5,21 +5,20 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="inner">
-                        <div class="camp-1">
-                            <h2>Kaukauna Camp</h2>
-                            <h3>June 23-25, 2017</h3>
-                            <div class="cta-btns">
-                                <a href="http://seanhasensteindemo.com/kaukauna.html">Camp Information</a>
-                                <a href="http://seanhasensteindemo.com/registration-format-kaukauna.html">Register Now</a>
-                            </div>
+                        <h3>Wisconsin Basketball Yearbook Officials Camps</h3>
+                        <div class="kau">
+                            <h4>Kaukauna Camp</h4>
+                            <h5>June 23-25, 2017</h5>
+                            <a href="#">Camp Details</a>
                         </div>
-                        <div class="camp-2">
-                            <h2>Plymouth Camp</h2>
-                            <h3>July 14-16, 2017</h3>
-                            <div class="cta-btns">
-                                <a href="http://seanhasensteindemo.com/plymouth.html">Camp Information</a>
-                                <a href="http://seanhasensteindemo.com/registration-format-plymouth.html">Register Now</a>
-                            </div>
+                        <div class="ply">
+                            <h4>Plymouth Camp</h4>
+                            <h5>July 14-16, 2017</h5>
+                            <a href="#">Camp Details</a>
+                        </div>
+                        <p>These Camps are for officials of all skill levels, both 2 and 3 person mechanics, at the high school and college levels. Spots are limited so reserve your's today!</p>
+                        <div class="cta-btns">
+                            <a href="#">Register Now</a>
                         </div>
                     </div>
                 </div>
@@ -28,52 +27,53 @@
     </section>
 
     <section class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>About WBYOC Camps</h2>
-                </div>
-            </div>    
+        <div class="container">    
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <p>Our camps are for officials of all skill levels, whether you work 2 or 3 person crews, at the high school or college level. Our camps focus on developing your skill level and knowledge in areas like mechanics, positioning, communication, etc. The camp is led by our veteran camp directors and experienced group of clinicians that want to help you improve your game and get to the next level.</p>
+                    <h3>Why Choose a WBYOC Camp?</h3>
+                    <p>Our camps focus on developing your skill level and knowledge in areas like mechanics, positioning, communication, and more. The camps are led by our veteran camp directors and an experienced group of clinicians that want to help you work on your game and get you to the next level.</p>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <p>The camps are run in conjunction with <a href="http://www.wbby.com" target="_blank">Mark Miller’s Wisconsin Yearbook Boys Varsity High School Tournaments</a>, hosted at Kaukauna High School and Plymouth Riverview Middle School. Spots are limited so be sure to reserve your's today!</p>
+                    <ul>
+                        <li><i class="fa fa-comment-o" aria-hidden="true"></i><h2>Attend Classroom Lectures</h2></li>
+                        <li><i class="fa fa-hand-paper-o" aria-hidden="true"></i><h2>Work WIAA HS Boys Varsity Games</h2></li>
+                        <li><i class="fa fa-star-o" aria-hidden="true"></i><h2>Feedback on your Game</h2></li>
+                        <li><i class="fa fa-film" aria-hidden="true"></i><h2>Custom Film Study</h2></li>
+                        <li><i class="fa fa-handshake-o" aria-hidden="true"></i><h2>Expand your Network</h2></li>
+                        <li><i class="fa fa-address-card-o" aria-hidden="true"></i><h2>Experienced Camp Staff</h2></li>
+                    </ul>
+                    <a class="thumbnail" href="#">
+                        <span class="play-button"></span>
+                        <img src="<?php bloginfo('template_directory'); ?>/images/film-study.jpg">
+                    </a>
                 </div>
             </div>        
         </div>
     </section>
 
-    <section class="session-info">
+    <!--<section class="example">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <h3>Each camp session includes:</h3>
-                    <ul>
-                        <li><i class="fa fa-comment-o" aria-hidden="true"></i><h2>Classroom Lectures</h2><span>Attend classroom lectures led by our experienced camp clinicians, commissioners, and coaches.</span></li>
-                        <li><i class="fa fa-hand-paper-o" aria-hidden="true"></i><h2>Live Games</h2><span>Officiate 3-4 WIAA Varsity Boys High School Basketball Games.</span></li>
-                        <li><i class="fa fa-star-o" aria-hidden="true"></i><h2>Feedback on your Skills</h2><span>Receive feedback on court observations and grade evaluations on Mechanics, Positioning, Communication, etc.</span></li>
-                        <li><i class="fa fa-video-camera" aria-hidden="true"></i><h2>Film Study</h2><span>Receieve a film study of one of your games that includes commentary and observations from our clinicians <a href="">(see example)</a>.</span></li>
-                        <li><i class="fa fa-users" aria-hidden="true"></i><h2>Expanding your Network</h2><span>Network with some of the best officials and commissioners in the state of Wisconsin.</span></li>
-                        <li><i class="fa fa-gift" aria-hidden="true"></i><h2>Camp Ammenities</h2><span>A camp gift and also food and refreshments will be provided. There will also be a camp social on both Friday and Saturday evening.</span></li>
-                    </ul>
+                <div class="col-md-6 col-sm-7">
+                    <h3>A Glimpse into Camp</h3>
+                    <p>Here is an example of the individualized film study that you will receive when you attend one of our WBYOC Camps. Spots are limited, so get your's today!</p>
+                    <a href="https://www.officialsconnection.org/register" class="cta-btn">Register for a 2017 Camp!</a>
+                </div>
+                <div class="col-sm-5 col-md-offset-1">
+                    <a href="#">
+                        <span class="play-button"></span>
+                        <img src="<?php bloginfo('template_directory'); ?>/images/film-study.jpg">
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
-    <section class="gallery row">
-        <img src="<?php bloginfo('template_directory'); ?>/images/example-1.jpg" alt="Kaukauna Camp 2016">
-        <img src="<?php bloginfo('template_directory'); ?>/images/example-3.jpg" alt="Kaukauna Camp 2016">
-        <img src="<?php bloginfo('template_directory'); ?>/images/example-2.jpg" alt="Kaukauna Camp 2016">
-    </section> 
-
-    <section class="home-cta">
+    <!--<section class="home-cta">
         <div class="row cta" id="register-now">
             <p>Spots are limited, so get your's today!</p>
-            <a href="http://seanhasensteindemo.com/register.html" class="cta-btn">Register for a 2017 Camp</a>
+            <a href="https://www.officialsconnection.org/register" class="cta-btn">Register for a 2017 Camp</a>
         </div>
-    </section>
+    </section>-->
 
 <?php get_footer (); ?>
